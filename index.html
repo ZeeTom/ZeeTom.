@@ -5,8 +5,86 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zach's Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Welcome to my page</h1>
+    <header>
+      <div class="logo">
+        <h2><span id="dev">Dev</span><span id="zach">Zach</span></h2>
+      </div>
+      <ul class="menu">
+        <li><a href="#top">Home</a></li>
+        <li><a href="#aboutme">About Me</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </header>
+    <div class="intro" name="intro">
+      <h2 id="intro">
+        <span id="intro1">Hello, my name is</span><br />
+        <span id="intro2">Zach Thomas</span><br />
+        <span id="intro3"
+          >And I'm a <span id="intro4"> Software Developer</span></span
+        >
+      </h2>
+      <img class="computer" src="computer.png" alt="" />
+    </div>
+    <div class="aboutme" name="aboutme" id="aboutme">
+      <h2 class="topic">About Me</h2>
+      <div class="me">
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur
+          impedit laborum, aliquam obcaecati quas nihil corporis fuga
+          exercitationem qui rerum suscipit vitae assumenda quasi omnis pariatur
+          blanditiis deleniti reprehenderit aliquid.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum sint
+          dignissimos distinctio aperiam debitis suscipit, ex dolor dicta
+          assumenda tenetur illo delectus corrupti similique aut aspernatur
+          nulla autem accusantium cupiditate!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat saepe
+          cumque blanditiis! Nulla sint ullam consequatur similique quia
+          recusandae. Aut id minima tenetur voluptates nesciunt corrupti,
+          mollitia quia error consequuntur!
+        </p>
+        <div class="skills">
+          <h3>
+            Front-End
+            <ul>
+              <li>JavaScript</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>ReactJS</li>
+            </ul>
+          </h3>
+          <h3>
+            Back-End
+            <ul>
+              <li>Python</li>
+              <li>SQL</li>
+              <li>NodeJS</li>
+              <li>Flask</li>
+            </ul>
+          </h3>
+        </div>
+        <a href="resume.pdf" download
+          ><button id="btn-resume">Download Resume</button></a
+        >
+      </div>
+      <img id="headshot" src="headshot.png" alt="" />
+    </div>
+    <div class="contact" name="contact">
+      <h2 class="topic" id="contact">Contact</h2>
+      <div class="contactlogos">
+        <a href="https://www.linkedin.com/in/zachary-thomas-sde/">
+          <img src="linkedin.png" alt="LinkedIn Logo" id="linkedin"
+        /></a>
+        <a href="https://github.com/ZeeTom">
+          <img src="github.png" alt="Github Logo" id="github" />
+        </a>
+      </div>
+    </div>
   </body>
 </html>

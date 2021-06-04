@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #e73827;
+  position: fixed;
+  z-index: 100;
+}
+
+.logo {
+  padding: 0px;
+  float: left;
+  color: white;
+  margin-top: 7px;
+  margin-left: 50px;
+}
+
+.menu {
+  width: auto;
+  float: right;
+  margin-top: 8px;
+  font-weight: 700;
+}
+
+.menu li {
+  display: inline-block;
+  padding: 15px 15px;
+  font-size: 20px;
+}
+
+.menu li a {
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  color: #000;
+  transition: 0.5s;
+}
+
+#zach {
+  font-size: 45px;
+}
+
+#dev {
+  font-size: 30px;
+  color: black;
+}
+
+.intro {
+  width: 100%;
+  height: 650px;
+  background-color: black;
+  padding-top: 70px;
+}
+
+.aboutme {
+  width: 100%;
+  height: 650px;
+  background-color: white;
+  border-top: 70px solid black;
+}
+
+#intro {
+  position: absolute;
+  top: 250px;
+  left: 60px;
+  color: white;
+}
+
+#intro1 {
+  font-size: 32px;
+  letter-spacing: -1px;
+}
+#intro2 {
+  font-size: 77px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 1.2;
+}
+#intro3 {
+  font-size: 33px;
+  letter-spacing: -1px;
+  color: white;
+  margin-right: 2px;
+}
+#intro4 {
+  color: #e73827;
+  letter-spacing: 1px;
+}
+
+.computer {
+  position: relative;
+  width: 800px;
+  top: 40px;
+  left: 700px;
+}
+
+.topic {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.me {
+  width: 50%;
+  position: absolute;
+  right: 150px;
+  font-size: 1.3rem;
+}
+
+.me p {
+  margin-bottom: 20px;
+}
+
+#headshot {
+  position: relative;
+  left: 75px;
+  bottom: 80px;
+  border-radius: 20%;
+  border: 5px solid black;
+}
+
+.skills {
+  margin-top: 35px;
+}
+
+.skills ul {
+  list-style-type: circle;
+  margin-bottom: 25px;
+}
+
+.skills ul li {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.skills li + li::before {
+  content: " - ";
+}
+
+.contact {
+  border-top: 3px solid black;
+}
+
+.contactlogos {
+  position: absolute;
+  left: 590px;
+}
+
+#linkedin {
+  max-width: 120px;
+}
+
+#github {
+  max-width: 120px;
+  max-height: 70px;
+}
+
+#btn-resume {
+  color: white;
+  background-color: black;
+  position: relative;
+  left: 450px;
+  bottom: 75px;
+  font-size: 30px;
+  border-radius: 10%;
+  padding: 5px;
+}
+
+#btn-resume:hover {
+  cursor: pointer;
+}
